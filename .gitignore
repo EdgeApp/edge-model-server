@@ -1,0 +1,5 @@
+node_modules/
+lib/
+coverage/
+# The live config holds the Venice key and the Edge API key secrets.
+config.json

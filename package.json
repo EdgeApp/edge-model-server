@@ -1,0 +1,26 @@
+{
+  "name": "edge-model-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A pass-through to Venice's API for callers that sign each request with an Edge API key",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node lib/index.js",
+    "test": "vitest run --coverage",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "cleaners": "0.3.17",
+    "express": "5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/node": "24.19.2",
+    "@vitest/coverage-v8": "5.1.0",
+    "typescript": "7.0.2",
+    "vitest": "5.1.0"
+  }
+}

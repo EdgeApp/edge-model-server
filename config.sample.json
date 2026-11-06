@@ -1,0 +1,14 @@
+{
+  "httpHost": "127.0.0.1",
+  "httpPort": 8018,
+  "veniceBaseUrl": "https://api.venice.ai",
+  "veniceApiKey": "<the server's Venice API key>",
+  "timestampWindowSec": 300,
+  "apiKeys": {
+    "eddy": {
+      "key": "<public key id the caller presents>",
+      "secret": "<hex secret, 1 to 32 bytes>",
+      "comment": "Eddy's embedded Edge API key"
+    }
+  }
+}
